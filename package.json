@@ -1,0 +1,19 @@
+{
+  "name": "template-default",
+  "version": "1.0.0",
+  "description": "Default template for react-go",
+  "private": true,
+  "scripts": {
+    "start": "react-go start",
+    "build": "react-go build"
+  },
+  "dependencies": {
+    "@react-go/scripts": "^0.0.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "eslintConfig": {
+    "extends": "@react-go/eslint-config"
+  },
+  "browserslist": "last 2 versions"
+}
